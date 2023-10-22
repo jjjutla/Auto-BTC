@@ -35,6 +35,7 @@ Enter Auto-BTC: a solution that goes beyond these challenges. It's not just one 
 
 
 # How it works?:
+The autonomous multi-agent model is only available on the devnet in local mode, so you have to deploy a local node, host a pinecone db and connect your gpt api. 
 
 <img src="https://github.com/jjjutla/Auto-BTC/assets/22000925/44fc1fef-7373-4882-a234-f3750b4f3377" alt="image1">
 
