@@ -4,6 +4,7 @@ Think AutoGPT but fine-tuned on Stacks smart contracts and docs with Stacks JS a
 
 [![YouTube Video Link](https://img.youtube.com/vi/H4Y0irC582k/maxresdefault.jpg)](https://youtu.be/H4Y0irC582k)
 
+<img width="1510" alt="Screenshot 2023-10-22 at 11 45 35" src="https://github.com/jjjutla/Auto-BTC/assets/22000925/756944cc-4bf6-448d-bd0e-10d75668ab7c">
 
 # Why?
 Despite having modern AI tools like GPT-4 and associated interfaces such as Cursor AI, which are capable of reading documents and engaging with code, there's still a noticeable gap in achieving optimal utilization of these systems. Examples like [XBTCBot](https://xbtcbot.xyz/) and [w3gpt.ai](http://w3gpt.ai/) illustrate the potential for on-chain interactions, but there's a problem.
