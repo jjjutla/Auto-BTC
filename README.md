@@ -6,7 +6,7 @@ Think AutoGPT but fine-tuned on Atacks smart contracts and docs with Stacks JS a
 
 
 # Why?
-Despite having modern AI tools like GPT-4 and associated interfaces such as Cursor AI, which are capable of reading documents and engaging with code, there's still a noticeable gap in achieving optimal utilization of these systems. Examples like (XBTCBot)[https://xbtcbot.xyz/] and (w3gpt.ai)[http://w3pt.ai/] illustrate the potential for on-chain interactions, but there's a problem.
+Despite having modern AI tools like GPT-4 and associated interfaces such as Cursor AI, which are capable of reading documents and engaging with code, there's still a noticeable gap in achieving optimal utilization of these systems. Examples like [XBTCBot](https://xbtcbot.xyz/) and [w3gpt.ai](http://w3gpt.ai/) illustrate the potential for on-chain interactions, but there's a problem.
 
 The main limitation often arises from our human interactions – the need to construct appropriate prompts and our problem-solving capability. As a result, we barely scratch the surface of the true intelligence and capability these models possess. For those new to the ecosystem, not knowing the right questions to ask or prompts to use can sometimes be detrimental rather than beneficial.
 
