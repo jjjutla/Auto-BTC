@@ -35,7 +35,15 @@ Enter Auto-BTC: a solution that goes beyond these challenges. It's not just one 
 
 
 # How it works?:
-The autonomous multi-agent model is only available on the devnet in local mode, so you have to deploy a local node, host a pinecone db and connect your gpt api. 
+### Autonomous Multiagent AI
+The Auto-BTC multimodal model operates exclusively within a local development environment using a cli interface due to safety and technical constraints. Users provide high-level, broad descriptions of their objectives, such as "develop a backend for an NFT marketplace." Once an objective is given, it's stored in Pinecone, a vector database that organizes tasks within a queue. The prioritisation agent, which is an OpenAI GPT-4 API call abstracts and decomposes this prompt into a list into a clear list of ordered tasks, which is then saved.
+
+The task execution is carried out by a GPT 3.5 model that's been fine-tuned using SIP-009 smart contract examples. Specialised in Clarity NFT contracts, it's demonstrated better accuracy in code generation compared to the standard GPT model. It processes each task and produces a relevant string output adhering to the original prompt. Another advantage to this system is its memory retention, utilizing another vector database for long-term memory, it retains every task and corresponding result, preserving context across interactions - useful for long interactions and tasks with several stages.
+
+Lastly there is a dynamic element called the task creation agent. This is another fine-tuned 3.5 model on the clarity docs and facilitates generating new 'sub-tasks' by evaluating the main goal and results of earlier tasks. Common operations of this model are clarity test commands. This continuous self prompting cycle happens until the limit is reach set by the user.
+
+### Web UI
+The web UI is a chat-GPT like interface developed using Vercel's AI library and SDK, enabling communication with the OpenAI API. Users sign in via their wallets with the assistance of StacksJS and can interact with the finely tuned model just like Chat-GPT. The video and your own testing can show the improvements of the fine tuning Vs the default Chat GPT. The user can send prompts to write clarity contracts, translate from rust/solidity to calrity, explain clarity code or 1 click deploy to the stacks testnet, using StacksJS.
 
 <img src="https://github.com/jjjutla/Auto-BTC/assets/22000925/44fc1fef-7373-4882-a234-f3750b4f3377" alt="image1">
 
