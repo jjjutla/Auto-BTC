@@ -17,18 +17,19 @@ Enter Auto-BTC: a solution that goes beyond these challenges. It's not just one 
 # Features:
 - **Intuitive Prompt System:** Users simply provide a general or high-level prompt about 'stacks', and Auto-BTC, with the help of a finely tuned model and task creation mechanism, generates a clear and prioritized list of tasks to address, eliminating the need for manual coding or problem-solving and making it easier than ever to non-board technical and non-technical users to web3.
 
-- **Enhanced Memory:** Utilizing two vector databases (via Pinecone), we store the entire conversation thread. This addresses the common issue with most large language models where details can be forgotten over extended interactions.
+- **Enhanced Memory:** Utilizing two vector databases (via Pinecone), we store the entire conversation thread and the task prioritization queue. This addresses the common issue with most large language models where details can be forgotten over extended interactions.
 
-- **Specialized GPT-3.5 Execution Model:** Tuned specifically for SP900 smart contracts, this model is equipped to:
-  - Craft smart contracts based on a given prompt.
-  - Break down and explain smart contract functionalities.
-  - Develop tests tailored for smart contracts.
-  - Convert and translate between Rust and Solidity smart contracts.
-  - Diagnose and rectify issues in smart contracts.
+- **Fine-Tuned GPT-3.5 Execution Model:** Trained on SP900 smart contract examples, this model is equipped to:
+  - Develop smart contracts based on a given prompt.
+  - Decompose and explain smart contract functionalities.
+  - Develop tests for smart contracts.
+  - Convert and translate between Rust/Solidity smart contracts to Clarity.
+  - Debug and fix issues in smart contracts.
   - Enhance and optimize smart contract performance.
-  - Facilitate easy on-chain deployment and interactions with the aid of Stacks JS.
 
-- **GPT-3.5 Task Creation Model:** Fine-tuned using the Clarinet documentation, this model possesses a deep understanding of testing and deployment procedures.
+- **One Click Deployment to Stacks:** Using StacksJS in the Web UI the user can connect their wallet and deploy the contract with a click of a button.
+
+- **GPT-3.5 Task Creation Model:** Fine-tuned on the Clarinent documentation used for autonomous testing of the contracts
 
 - **GPT-4 API Integration:** Used to abstract information and produce comprehensive task lists efficiently.
 
@@ -36,7 +37,7 @@ Enter Auto-BTC: a solution that goes beyond these challenges. It's not just one 
 
 # How it works?:
 ### Autonomous Multi-Agent AI Model
-The Auto-BTC multimodal model operates exclusively within a local development environment using a cli interface due to safety and technical constraints. Users provide high-level, broad descriptions of their objectives, such as "develop a backend for an NFT marketplace." Once an objective is given, it's stored in Pinecone, a vector database that organizes tasks within a queue. The prioritisation agent, which is an OpenAI GPT-4 API call abstracts and decomposes this prompt into a list into a clear list of ordered tasks, which is then saved.
+The Auto-BTC multimodal model operates exclusively within a local development environment using a cli interface due to safety and technical constraints. Users provide high-level, vague  descriptions of their objectives, such as "develop a backend for an NFT marketplace." Once an objective is given, it's stored in Pinecone, a vector database that organizes tasks within a queue. The prioritisation agent, which is an OpenAI GPT-4 API call abstracts and decomposes this prompt into a list into a clear list of ordered tasks, which is then saved.
 
 The task execution is carried out by a GPT 3.5 model that's been fine-tuned using SIP-009 smart contract examples. Specialised in Clarity NFT contracts, it's demonstrated better accuracy in code generation compared to the standard GPT model. It processes each task and produces a relevant string output adhering to the original prompt. Another advantage to this system is its memory retention, utilizing another vector database for long-term memory, it retains every task and corresponding result, preserving context across interactions - useful for long interactions and tasks with several stages.
 
