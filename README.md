@@ -2,9 +2,8 @@
 
 Think AutoGPT but fine-tuned on Atacks smart contracts and docs with Stacks JS and Clarinet allowing for autonomous multi-agent interaction on chain.
 
-[![YouTube Video Link](YOUR_IMAGE_URL)](https://youtu.be/H4Y0irC582k)
+[![YouTube Video Link](https://img.youtube.com/vi/H4Y0irC582k/maxresdefault.jpg)](https://youtu.be/H4Y0irC582k)
 
-Watch the Video: https://www.youtube.com/watch?v=H4Y0irC582k 
 
 # Why?
 Despite having modern AI tools like GPT-4 and associated interfaces such as Cursor AI, which are capable of reading documents and engaging with code, there's still a noticeable gap in achieving optimal utilization of these systems. Examples like (XBTCBot)[https://xbtcbot.xyz/] and (w3gpt.ai)[http://w3pt.ai/] illustrate the potential for on-chain interactions, but there's a problem.
