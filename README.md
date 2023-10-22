@@ -12,4 +12,4 @@ The first Autonomous Multi-Agent AI on Bitcoin
 <img src="https://github.com/jjjutla/Auto-BTC/assets/22000925/26256c93-5fbe-47aa-9355-2ae8b4f3cdea" alt="prompt2" width="257" height="420">
 
 
-1186 × 1528
+
