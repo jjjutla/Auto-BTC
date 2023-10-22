@@ -1,6 +1,6 @@
 # Auto-BTC - The First Autonomous Multi-Agent AI on Bitcoin
 
-Think AutoGPT but fine-tuned on Atacks smart contracts and docs with Stacks JS and Clarinet allowing for autonomous multi-agent interaction on chain.
+Think AutoGPT but fine-tuned on Stacks smart contracts and docs with Stacks JS and Clarinet allowing for autonomous multi-agent interaction on chain.
 
 [![YouTube Video Link](https://img.youtube.com/vi/H4Y0irC582k/maxresdefault.jpg)](https://youtu.be/H4Y0irC582k)
 
