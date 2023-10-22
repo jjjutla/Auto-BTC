@@ -29,7 +29,7 @@ Enter Auto-BTC: a solution that goes beyond these challenges. It's not just one 
 
 - **GPT-3.5 Task Creation Model:** Fine-tuned using the Clarinet documentation, this model possesses a deep understanding of testing and deployment procedures.
 
-**GPT-4 API Integration:** Used to abstract information and produce comprehensive task lists efficiently.
+- **GPT-4 API Integration:** Used to abstract information and produce comprehensive task lists efficiently.
 
 
 
