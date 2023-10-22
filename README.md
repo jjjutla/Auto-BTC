@@ -2,7 +2,7 @@
 
 Think AutoGPT but fine-tuned on Atacks smart contracts and docs with Stacks JS and Clarinet allowing for autonomous multi-agent interaction on chain.
 
-![autobtc](https://github.com/jjjutla/Auto-BTC/assets/22000925/95f77134-9481-44cc-bca0-a42c46e9a51c)
+[![YouTube Video Link](YOUR_IMAGE_URL)](https://youtu.be/H4Y0irC582k)
 
 Watch the Video: https://www.youtube.com/watch?v=H4Y0irC582k 
 
