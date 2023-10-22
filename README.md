@@ -2,6 +2,8 @@
 
 Think AutoGPT but fine-tuned on Stacks smart contracts and docs with Stacks JS and Clarinet allowing for autonomous multi-agent interaction on chain.
 
+Imagine being able to type 'create an NFT marketplace' and you watch it be developed, tested and deployed before your eyes:
+
 [![YouTube Video Link](https://img.youtube.com/vi/H4Y0irC582k/maxresdefault.jpg)](https://youtu.be/H4Y0irC582k)
 
 <img width="1510" alt="Screenshot 2023-10-22 at 11 45 35" src="https://github.com/jjjutla/Auto-BTC/assets/22000925/756944cc-4bf6-448d-bd0e-10d75668ab7c">
