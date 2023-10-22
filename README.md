@@ -4,6 +4,8 @@ Think AutoGPT but fine-tuned on Atacks smart contracts and docs with Stacks JS a
 
 ![autobtc](https://github.com/jjjutla/Auto-BTC/assets/22000925/95f77134-9481-44cc-bca0-a42c46e9a51c)
 
+Watch the Video: https://www.youtube.com/watch?v=H4Y0irC582k 
+
 # Why?
 Despite having modern AI tools like GPT-4 and associated interfaces such as Cursor AI, which are capable of reading documents and engaging with code, there's still a noticeable gap in achieving optimal utilization of these systems. Examples like (XBTCBot)[https://xbtcbot.xyz/] and (w3gpt.ai)[http://w3pt.ai/] illustrate the potential for on-chain interactions, but there's a problem.
 
