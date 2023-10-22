@@ -15,7 +15,7 @@ Enter Auto-BTC: a solution that goes beyond these challenges. It's not just one 
 
 
 # Features:
-- **Intuitive Prompt System:** Users simply provide a general or high-level prompt about 'stacks', and our system, with the help of a finely tuned model and task creation mechanism, generates a clear and prioritized list of tasks to address, eliminating the need for manual coding or problem-solving.
+- **Intuitive Prompt System:** Users simply provide a general or high-level prompt about 'stacks', and Auto-BTC, with the help of a finely tuned model and task creation mechanism, generates a clear and prioritized list of tasks to address, eliminating the need for manual coding or problem-solving and making it easier than ever to non-board technical and non-technical users to web3.
 
 - **Enhanced Memory:** Utilizing two vector databases (via Pinecone), we store the entire conversation thread. This addresses the common issue with most large language models where details can be forgotten over extended interactions.
 
