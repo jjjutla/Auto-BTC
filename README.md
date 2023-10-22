@@ -1,6 +1,12 @@
 # Auto-BTC
 The first Autonomous Multi-Agent AI on Bitcoin
 
+
+![autobtc](https://github.com/jjjutla/Auto-BTC/assets/22000925/95f77134-9481-44cc-bca0-a42c46e9a51c)
+
+
+
+
 # How it works?:
 
 <img src="https://github.com/jjjutla/Auto-BTC/assets/22000925/44fc1fef-7373-4882-a234-f3750b4f3377" alt="image1">
