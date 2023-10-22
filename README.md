@@ -48,6 +48,8 @@ Lastly there is a dynamic element called the task creation agent. This is anothe
 ### Web UI Model
 The web UI is a chat-GPT like interface developed using Vercel's AI library and SDK, enabling communication with the OpenAI API. Users sign in via their wallets with the assistance of StacksJS and can interact with the finely tuned model just like Chat-GPT. The video and your own testing can show the improvements of the fine tuning Vs the default Chat GPT. The user can send prompts to write clarity contracts, translate from rust/solidity to calrity, explain Clarity code or 1 click deploy to the stacks testnet, using StacksJS.
 
+### Workflow Diagram:
+
 <img src="https://github.com/jjjutla/Auto-BTC/assets/22000925/44fc1fef-7373-4882-a234-f3750b4f3377" alt="image1">
 
 ### Web UI Interface
