@@ -43,7 +43,7 @@ The task execution is carried out by a GPT 3.5 model that's been fine-tuned usin
 Lastly there is a dynamic element called the task creation agent. This is another fine-tuned 3.5 model on the clarity docs and facilitates generating new 'sub-tasks' by evaluating the main goal and results of earlier tasks. Common operations of this model are clarity test commands. This continuous self prompting cycle happens until the limit is reach set by the user.
 
 ### Web UI Model
-The web UI is a chat-GPT like interface developed using Vercel's AI library and SDK, enabling communication with the OpenAI API. Users sign in via their wallets with the assistance of StacksJS and can interact with the finely tuned model just like Chat-GPT. The video and your own testing can show the improvements of the fine tuning Vs the default Chat GPT. The user can send prompts to write clarity contracts, translate from rust/solidity to calrity, explain clarity code or 1 click deploy to the stacks testnet, using StacksJS.
+The web UI is a chat-GPT like interface developed using Vercel's AI library and SDK, enabling communication with the OpenAI API. Users sign in via their wallets with the assistance of StacksJS and can interact with the finely tuned model just like Chat-GPT. The video and your own testing can show the improvements of the fine tuning Vs the default Chat GPT. The user can send prompts to write clarity contracts, translate from rust/solidity to calrity, explain Clarity code or 1 click deploy to the stacks testnet, using StacksJS.
 
 <img src="https://github.com/jjjutla/Auto-BTC/assets/22000925/44fc1fef-7373-4882-a234-f3750b4f3377" alt="image1">
 
